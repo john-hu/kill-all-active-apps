@@ -1,0 +1,29 @@
+{
+  "name": "Kill-Actives",
+  "description": "Add a button to kill all active apps",
+  "developer": {
+    "name": "John Hu"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Kill All Actives",
+      "description": "Add a button to kill all active apps"
+    }
+  },
+  "default_locale": "en-US",
+  "package_path": "application.zip",
+  "role": "addon",
+  "type": "certified",
+  "customizations": [
+    {
+      "filter": "app://system.gaiamobile.org",
+      "scripts": [
+        "main.js"
+      ]
+    }
+  ],
+  "icons": {
+    "128": "/icons/128.png",
+    "256": "/icons/256.png"
+  }
+}

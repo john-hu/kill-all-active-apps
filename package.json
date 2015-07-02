@@ -1,0 +1,11 @@
+{
+  "name": "kill-all-actives",
+  "description": "Add a button to kill all active apps",
+  "developer": {
+    "name": "John Hu"
+  },
+  "dependencies": {
+    "gulp": "*",
+    "gulp-zip": "*"
+  }
+}
