@@ -14,7 +14,7 @@
     button.style.border = 'none';
     button.style.outline = 'none';
     button.style.fontSize = '3rem';
-    button.style.position = 'absolute';
+    button.style.position = 'fixed';
     button.style.top = '3rem';
     button.style.right = '3rem';
     button.style.zIndex = '9999999';
