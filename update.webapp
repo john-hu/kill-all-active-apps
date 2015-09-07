@@ -1,0 +1,12 @@
+{
+  "name": "Kill-Actives",
+  "description": "Add a button to kill all active apps",
+  "developer": {
+    "name": "John Hu"
+  },
+  "package_path": "extension.zip",
+  "icons": {
+    "128": "/icons/128.png",
+    "256": "/icons/256.png"
+  }
+}
