@@ -6,14 +6,42 @@
     }
     var cardsView = document.getElementById('cards-view');
 
+    var icon = '<svg' +
+      '   xmlns="http://www.w3.org/2000/svg"' +
+      '   viewBox="0 0 256 256"' +
+      '   height="100%"' +
+      '   width="100%">' +
+      '     <rect' +
+      '       style="fill:#ffffff"' +
+      '       width="54.468082"' +
+      '       height="176.65498"' +
+      '       x="0"' +
+      '       y="79.345016" />' +
+      '    <rect' +
+      '       style="fill:#ffffff"' +
+      '       width="54.468082"' +
+      '       height="176.65498"' +
+      '       x="201.53192"' +
+      '       y="7.6293945e-06" />' +
+      '    <rect' +
+      '      style="fill:#ffffff"' +
+      '      width="54.468082"' +
+      '      height="176.65498"' +
+      '      x="99.858162"' +
+      '      y="37.42691" />' +
+      '  </g>' +
+      '</svg>';
+
     var button = document.createElement('button');
     // set it as type to prevent form submit.
     button.type = 'button';
-    button.textContent = '🈳';
-    button.style.background = 'none';
+    button.innerHTML = icon;
+    button.style.background = '#0095DD ';
     button.style.border = 'none';
+    button.style.borderRadius = '1.5rem';
     button.style.outline = 'none';
-    button.style.fontSize = '3rem';
+    button.style.width = '3rem';
+    button.style.height = '3rem';
     button.style.position = 'fixed';
     button.style.top = '3rem';
     button.style.right = '3rem';
